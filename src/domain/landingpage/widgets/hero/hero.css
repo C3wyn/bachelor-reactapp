@@ -1,0 +1,43 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50vh;
+    background: radial-gradient(circle at 50% 0%, #43758A 0%, #1B2831 100%);
+    border-radius: 24px;
+    padding: 48px 24px;
+}
+
+.hero .text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 16px;
+}
+
+.hero .text p {
+    font-size: 24px;
+}
+
+.hero .actions {
+    display: flex;
+    justify-content: start;
+    gap: 24px;
+    margin: 0;
+}
+
+.actions .filled {
+    background: white;
+    color: black;
+}
+
+.actions .outlined {
+    border-color: white;
+    color: white;
+}
+.actions .outlined:hover {
+    background: white;
+    color: black;
+}

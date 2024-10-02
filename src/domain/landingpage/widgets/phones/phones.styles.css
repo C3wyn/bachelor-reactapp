@@ -1,0 +1,14 @@
+.phone-list {
+    margin-bottom: 48px;
+    list-style: none;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.phone-list li {
+    display: inline-block;
+    padding-right: 1rem;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

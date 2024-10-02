@@ -1,0 +1,10 @@
+.divider {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    border-bottom: 1px solid #bbb;
+}
+
+.divider p {
+    color: #656565;
+}

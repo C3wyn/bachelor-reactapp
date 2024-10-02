@@ -1,0 +1,27 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+header nav ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+a .active {
+    font-weight: bold;
+}

@@ -1,0 +1,21 @@
+.brands {
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.brand-list {
+    
+    list-style: none;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.brand-list li {
+    display: inline-block;
+    padding-right: 1rem;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    background: white;
+    cursor: pointer;
+}
