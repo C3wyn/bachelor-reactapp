@@ -1,3 +1,4 @@
 export const onBrandCardClick = (brand) => {
-    window.location.href = `/brands/${brand.id}`;
+    console.log(brand);
+    window.location.href = `/search?brand=${brand}`;
 }

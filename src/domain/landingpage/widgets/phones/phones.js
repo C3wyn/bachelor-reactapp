@@ -14,8 +14,8 @@ export const Phones = () => {
 
     return (
         <div className="phones">
-            <h1 className="title-medium">Smartphones</h1>
-            <ul className="phone-list">
+            <h1 className="title-medium">Beste Preise</h1>
+            <ul id="ten-cheapest-phones" className="">
                 {phones.map((phone) => (
                     <li><PhoneCard key={phone.id} phone={phone} /></li>
                 ))}

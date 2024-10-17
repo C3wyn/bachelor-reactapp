@@ -28,7 +28,7 @@ export const DetailsPage = () => {
                     <p className="title-small">{phone.model}</p>
                     <p className="text-small">{phone.codename}</p>
                     <Divider />
-                    <DetailsCard title="Preis" text={phone.price+",00€"} />
+                    <DetailsCard title="Preis" text={phone.price+",00€"} />     
                     <Divider text="Physischen Informationen" />
                     <div className="row">
                         <DetailsCard title="Maße" text={dimensions} />

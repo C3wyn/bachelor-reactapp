@@ -12,6 +12,3 @@ export const getBrands = async (setBrands) => {
     });
     setBrands(brands);
 }
-
-
-

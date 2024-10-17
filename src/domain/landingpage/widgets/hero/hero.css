@@ -28,16 +28,16 @@
     margin: 0;
 }
 
-.actions .filled {
+.hero .actions .filled {
     background: white;
     color: black;
 }
 
-.actions .outlined {
+.hero .actions .outlined {
     border-color: white;
     color: white;
 }
-.actions .outlined:hover {
+.hero .actions .outlined:hover {
     background: white;
     color: black;
 }

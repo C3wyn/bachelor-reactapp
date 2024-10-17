@@ -1,0 +1,6 @@
+.phone-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    gap: 24px;
+}

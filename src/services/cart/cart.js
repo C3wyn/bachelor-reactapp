@@ -11,6 +11,11 @@ export class Cart {
         this._save();
     }
 
+    removeItem(id) {
+        this.items = this.items.filter(item => item !== id);
+        this._save();
+    }
+
     getItems() {
         return this.items;
     }
@@ -24,6 +29,6 @@ export class Cart {
         localStorage.setItem('items', JSON.stringify(this.items));
     }
     _load() {
-        this._items = JSON.parse(localStorage.getItem('items'));
+        this.items = JSON.parse(localStorage.getItem('items'));
     }
 }

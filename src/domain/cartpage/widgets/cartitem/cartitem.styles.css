@@ -1,0 +1,33 @@
+.cart-item {
+    display: flex;
+    flex-direction: row;
+    column-gap: 16px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 16px;
+    border-radius: 16px;
+    border: 1px solid #d6d6d6;
+}
+
+.cart-item img {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+}
+
+.first-row {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    column-gap: 16px;
+}
+
+.second-row {
+    display: flex;
+    column-gap: 16px;
+    flex: row nowrap;
+}
+
+.close {
+    cursor: pointer;
+}

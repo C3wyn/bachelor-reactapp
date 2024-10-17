@@ -8,9 +8,9 @@ export const BrandCard = (props) => {
     useEffect(() => {
         getBrandLogo(image, setImage).catch((err) => console.log(err));
     }, [image, setImage]);
-
+    console.log(props.brand);
     return (
-        <div className="brand-card" onClick={() => onBrandCardClick(props.brand)}>
+        <div className="brand-card" onClick={() => onBrandCardClick(props.brand.name)}>
             <img src={image} alt="brand"/>
             <p>{props.brand.name}</p>
         </div>

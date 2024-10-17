@@ -1,7 +1,10 @@
+import './searchfield.styles.css';
+
 export const SearchField = () => {
     return (
-        <div>
-            <input style={{width: "10px"}} type="text" placeholder="Search..."/>
+        <div id='searchfield'>
+            <span class="material-icons">search</span>
+            <input type="text" placeholder="Suchen"/>
         </div>
     );
 }

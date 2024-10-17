@@ -1,12 +1,12 @@
-.phone-list {
+#ten-cheapest-phones {
     margin-bottom: 48px;
     list-style: none;
     width: 100%;
-    overflow-x: auto;
+    overflow-x: scroll;
     white-space: nowrap;
 }
 
-.phone-list li {
+#ten-cheapest-phones li {
     display: inline-block;
     padding-right: 1rem;
     -ms-overflow-style: none;
